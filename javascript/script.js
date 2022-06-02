@@ -14,7 +14,5 @@ $(function () {
 
 $(function () {
     $('h1').text('introduction à jQuery');
-    $('#content').html('<p>coucou et  chalut</p>');
-    $('#content').css('color', 'red');
+    $('#content').html('<p>coucou et  chalut</p>').css('color', 'purple');
 });
-
